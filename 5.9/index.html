@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+
+    <button onclick="createTable()">Create table</button>
+    <button onclick="tableStyle()">Give it some style</button>
+
+    <div id="container"></div>
+
+    <div id="newItem">
+      <p>Enter new item here: </p>
+      <input type="text" placeholder="name" name="name">
+      <input type="text" placeholder="type" name="type">
+      <input type="number" placeholder="price" name="price">
+      <div id="available">
+        <p>Is the product in stock?</p>
+        <input type="radio" name="available" value=true> Yes
+        <input type="radio" name="available" value=false> No
+      </div>
+      <input type="text" placeholder="Add a link to an image" name="imageLink">
+      <button onclick="addItem()">Submit new entry</button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

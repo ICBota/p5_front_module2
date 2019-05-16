@@ -1,0 +1,32 @@
+ul {
+    list-style-type: none;
+    margin: 5px;
+}
+
+li {
+    padding: 5px;
+}
+
+span {
+    position: relative;
+}
+
+span::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+    position: absolute;
+    left: -25px;
+    top: -2px;
+    padding: 0 5px 8px 4px;
+}
+
+.partChecked::before {
+    content: '\2500';
+}
+
+.checked::before {
+    content: '\2714';
+}

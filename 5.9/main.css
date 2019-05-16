@@ -1,0 +1,40 @@
+button {
+    margin: 30px;
+    padding: 20px;
+
+}
+
+#container {
+    margin: 50px;
+}
+
+table, tr, td, th {
+    transition: 1s all;
+}
+
+#newItem {
+    margin: 50px;
+    padding: 25px;
+    border: 1px dashed black;
+    width: fit-content;
+}
+
+/* table {
+    border-spacing: unset;
+    border-collapse: collapse;
+} */
+
+/* td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+    text-align: center;
+} */
+
+/* th:nth-child(2n) {
+    background: lightgray;
+}
+
+td:nth-child(2n+1) {
+    background: lightgray;
+} */
